@@ -17,6 +17,6 @@ case class  ChatInviteLink(
                inviteLink            : String,
                isPrimary             : Boolean,
                isRevoked             : Boolean,
-               memberLimit           : Option[Int]
+               memberLimit           : Option[Int] = None
                    ) {
 }
